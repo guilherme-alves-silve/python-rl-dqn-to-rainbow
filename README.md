@@ -1,3 +1,8 @@
+# [How to Never Forget Deep Q-Networks: Memory Palaces Meet Reinforcement Learning](https://guilhermealvessilveira.substack.com/p/how-to-never-forget-deep-q-networks)
+
+This project is the code of the article in [link](https://guilhermealvessilveira.substack.com/p/how-to-never-forget-deep-q-networks), 
+contains the Jupyter Notebook, and the code used to run outside of Jupyter Notebook.
+
 You can use [Google Colab in VSCode](https://www.freecodecamp.org/news/how-to-use-google-colab-with-vs-code/), or follow the steps below to run locally in your machine:
 ```
 pip install uv
@@ -8,11 +13,14 @@ uv run python -c "import torch; print(torch.cuda.is_available())"
 ```
 
 Execute jupyter notebook: 
-	- `uv run jupyter lab`
-	- `uv run jupyter notebook`
-	- `uv run jupyter lab --ServerApp.iopub_msg_rate_limit=0 --ServerApp.rate_limit_window=0`
-	- `uv run jupyter notebook --ServerApp.iopub_msg_rate_limit=0 --ServerApp.rate_limit_window=0`
 
-https://github.com/guilherme-alves-silve/machine-learning-python/blob/master/rf_lr/deepqlearning/deep_q_learning_rflr_gym.ipynb
-https://github.com/FareedKhan-dev/all-rl-algorithms/blob/master/13_dqn.ipynb
-https://github.com/Curt-Park/rainbow-is-all-you-need/blob/master/01.dqn.ipynb
+- `uv run jupyter lab`
+- `uv run jupyter notebook`
+- `uv run jupyter lab --ServerApp.iopub_msg_rate_limit=0 --ServerApp.rate_limit_window=0`
+- `uv run jupyter notebook --ServerApp.iopub_msg_rate_limit=0 --ServerApp.rate_limit_window=0`
+
+References:
+
+- [Jupyter Notebook of DQN](https://github.com/guilherme-alves-silve/machine-learning-python/blob/master/rf_lr/deepqlearning/deep_q_learning_rflr_gym.ipynb)
+- [DQN all-rl-algorithms](https://github.com/FareedKhan-dev/all-rl-algorithms/blob/master/13_dqn.ipynb)
+- [DQN rainbow-is-all-you-need](https://github.com/Curt-Park/rainbow-is-all-you-need/blob/master/01.dqn.ipynb)
